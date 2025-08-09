@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+
+int main(void) {
+    cout << endl;
+    
+    switch (6) {
+    case 3:
+        cout << "case 3..." << endl;
+        break;
+    
+    case 4:
+        cout << "case 4..." << endl;
+        break;
+    
+    case 5:
+        cout << "case 5..." << endl;
+        break;
+        
+    case 6:
+        cout << "case 6..." << endl;
+        break;
+        
+    default:
+        cout << "no suitable case:(" << endl;
+    }
+    
+    cout << endl;
+    
+    return 0;
+}
